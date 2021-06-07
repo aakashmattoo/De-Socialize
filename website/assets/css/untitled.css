@@ -19,3 +19,24 @@ form {
   background: rgb(255,255,255);
 }
 
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+  color: #fff;
+  background-color: #007369;
+  border-color: #007369;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #029a8d;
+  border-color: #029a8d;
+}
+
+a:hover {
+  color: #004c52;
+}
+
+.btn-outline-primary {
+  color: #029a8d;
+  border-color: #029a8d;
+}
+
